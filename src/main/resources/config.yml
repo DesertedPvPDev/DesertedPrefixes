@@ -3,8 +3,20 @@
 # V0.0.1           #
 ####################
 
+# The chat format to use in chat.
+# Usable placeholders are:
+#  {prefix}
+#  {rank}
+#  {player}
+#  {msg}
 chatFormat: '{prefix}{rank} &r{player}: {msg}'
 
+# Ranks configuration
+# Every rank can be added/removed
+# Just add the section and define each part
+# level refers to the stacking order of ranks.
+# The rank that the player has the most permission for
+# and has the highest rank will be shown in-game
 ranks:
   private:
     chatTitle: '&b(&7Private&b)'
@@ -23,6 +35,12 @@ ranks:
     perm: 'desertedprefix.beast'
     level: 4
 
+# Prefix configuration
+# Every prefix can be added/removed
+# Just add the section and define each part
+# level refers to the stacking order of prefixes.
+# The prefix that the player has the most permission for
+# and has the highest prefix will be shown in-game
 prefixes:
   jrmod:
     prefix: '&3&lJr. Mod '
