@@ -1,0 +1,58 @@
+####################
+# DesertedPrefix   #
+# V0.0.1           #
+####################
+
+chatFormat: '{prefix}{rank} &r{player}: {msg}'
+
+ranks:
+  private:
+    chatTitle: '&b(&7Private&b)'
+    perm: 'desertedprefix.private'
+    level: 1
+  warrior:
+    chatTitle: '&b(&7Warrior&b)'
+    perm: 'desertedprefix.warrior'
+    level: 2
+  knight:
+    chatTitle: '&b(&7Knight&b)'
+    perm: 'desertedprefix.knight'
+    level: 3
+  beast:
+    chatTitle: '&b(&7Beast&b)'
+    perm: 'desertedprefix.beast'
+    level: 4
+
+prefixes:
+  jrmod:
+    prefix: '&3&lJr. Mod '
+    perm: 'desertedprefix.jrmod'
+    level: 1
+  mod:
+    prefix: '&2&lMod '
+    perm: 'desertedprefix.mod'
+    level: 2
+  srmod:
+    prefix: '&2&lSr. Mod '
+    perm: 'desertedprefix.srmod'
+    level: 3
+  headmod:
+    prefix: '&2&lHead Mod '
+    perm: 'desertedprefix.headmod'
+    level: 4
+  jrdev:
+    prefix: '&b&lJr. Dev '
+    perm: 'desertedprefix.jrdev'
+    level: 5
+  developer:
+    prefix: '&b&lDev '
+    perm: 'desertedprefix.dev'
+    level: 6
+  admin:
+    prefix: '&c&lAdmin '
+    perm: 'desertedprefix.admin'
+    level: 7
+  owner:
+    prefix: '&c&lOwner '
+    perm: 'desertedprefix.owner'
+    level: 8
